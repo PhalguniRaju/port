@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <title>Phalguni Raju | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="nav">
+  <div class="container nav-inner">
+    <div class="logo">PR</div>
+
+    <nav class="nav-links">
+      <button data-scroll="#about">About</button>
+      <button data-scroll="#skills">Skills</button>
+      <button data-scroll="#education">Education</button>
+      <button data-scroll="#projects">Projects</button>
+      <button data-scroll="#certs">Certifications</button>
+      <button data-scroll="#hobbies">Hobbies</button>
+      <button data-scroll="#contact">Contact</button>
+    </nav>
+
+    <button id="themeToggle">🌙</button>
+  </div>
+</header>
+
+<main>
+
+<section class="hero fade-section">
+  <div class="container hero-inner">
+
+    <div class="hero-text">
+      <p class="hero-tag">3rd Year CSE</p>
+      <h1>Hi, I'm <span class="accent">Phalguni Raju</span></h1>
+
+      <!-- FIXED INTRO -->
+      <p class="hero-sub">
+        I’m a Computer Science Engineering student focused on AI, data analysis,
+        and building practical, real-world solutions.
+      </p>
+
+      <div class="hero-actions">
+        <button class="btn primary" data-scroll="#projects">View Projects</button>
+        <button class="btn ghost" data-scroll="#contact">Contact Me</button>
+      </div>
+    </div>
+
+    <div class="hero-photo">
+      <div class="photo-ring">
+        <img src="profile.jpg" />
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section fade-section">
+  <div class="container">
+    <p class="section-tag">About Me</p>
+    <h2 class="section-title">Who I am</h2>
+
+    <p style="text-align: justify;">
+      I am a third-year Computer Science Engineering student at Alliance University with a strong interest in Artificial Intelligence and Data Analysis. I enjoy understanding how systems work at a deeper level and applying that knowledge to solve real-world problems.
+    </p>
+
+    <p style="text-align: justify;">
+      My approach to learning is practical and hands-on. I focus on building projects, analyzing data, and continuously improving my technical skills through real applications.
+    </p>
+
+    <p style="text-align: justify;">
+      I aim to grow as a data-driven engineer by combining analytical thinking with technical expertise to create efficient and meaningful solutions.
+    </p>
+  </div>
+</section>
+
+<!-- REST SAME -->
+<!-- KEEP YOUR EDUCATION / HOBBIES / CONTACT AS IS -->
+
+<!-- CERT TITLE FIX -->
+<section id="certs" class="section fade-section">
+  <div class="container">
+    <p class="section-tag">Certifications</p>
+    <h2 class="section-title">What I've Learnt</h2>
+    <div id="certs-grid" class="grid"></div>
+  </div>
+</section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
